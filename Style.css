@@ -1,0 +1,58 @@
+body{
+    background: lightgray;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    text-align:center;
+    padding: 10px;
+    position: relative;
+    border: 0px;
+    margin-bottom: 40px;
+    /*? linea alrededor*/
+}
+h1{
+    margin: 5px;
+}
+
+#box{
+    background-color: white;
+    width: 500px;
+    margin: 40px auto;
+}
+/*.headline{
+   display: flex;*/
+
+p{
+    text-align: justify;
+    padding: 15px;
+}
+.photo img{
+    width: 500px;
+}
+.headline .date{
+    padding: 2px;
+    float:right;
+    width: 100px;
+    margin: 5px 10px;
+    text-align: right;
+    color: gray;
+}
+.headline .name{
+    padding: 2px;
+    width: 150px;
+    float: left;
+    margin: 5px 10px;
+}
+
+.name .date{
+    font-weight: bold;
+}
+/*span{
+    border-color: blue;
+    border-style: dashed;
+    border-width: 3px;
+} para visualizar*/
+
